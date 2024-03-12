@@ -62,7 +62,7 @@ while True:
         result = 'Scissor'
     elif (choice == 3 and comp_choice == 2):
         print('Scissor wins', end="")
-        result = 'Stone'
+        result = 'Scissor'
 
     if result == 'DRAW':
         print("<== Its a tie ==>")
